@@ -29,7 +29,7 @@ const Question = () => {
       <h2>3:What is the Purpose of useEffect other than fetching data?</h2>
       <div className='answer  mt-1 rounded p-2' id="example-collapse-text">
           <p>
-          The purpose of useEffect other than fetching data is manipulating the DOM,handling side effects in general.
+          The useState hook is used for storing variables and it is manipulating the DOM,handling side effects in general.
           </p>
         </div>
      </div>
@@ -37,8 +37,10 @@ const Question = () => {
      <div className='question  w-100 ps-4   rounded p-2  mt-3 '>
       <h2>4.How Does React work?</h2>
       <div className='answer  mt-1 rounded p-2' id="example-collapse-text">
-            <p>
-            React is a JavaScript library for building user interfaces. It works by allowing developers to define components that represent parts of the UI, which can be composed together to build complex UIs. React automatically re-renders components and updates the DOM when a component's state changes. It also provides lifecycle methods to control component behavior, and can be used with other tools and frameworks to build full-featured applications.
+            <p> React is one of the most popular javaScript library for building the user interface. 
+
+
+            
             </p>
           </div>
       </div>
