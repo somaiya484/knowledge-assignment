@@ -37,10 +37,7 @@ const Question = () => {
      <div className='question  w-100 ps-4   rounded p-2  mt-3 '>
       <h2>4.How Does React work?</h2>
       <div className='answer  mt-1 rounded p-2' id="example-collapse-text">
-            <p> React is one of the most popular javaScript library for building the user interface. 
-
-
-            
+            <p> React is one of the most popular javaScript library for building the user interface. It is worked by component like JavaScript functions. React accept props. It can make as much components as needed. It also worked quickly and efficiently with significantly less code than it would with vanilla JavaScript. In React, it is also develop it's applications by creating reusable components. It can be used with other tools and frameworks to build full-featured applications
             </p>
           </div>
       </div>
