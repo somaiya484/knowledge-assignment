@@ -20,7 +20,7 @@ const Question = () => {
         <h2>2:How does useState work?</h2>
         <div className='answer  mt-1 rounded p-2' id="example-collapse-text">
               <p>
-              useState is a React hook that allows or can be used to added the state value to a function. It returns an array with two values: the current state and a function to update it.When a component renders for the first time, useState initializes the state with the provided initial value. The initial value can be a primitive value such as a string, number or boolean, or it can be an object or an array. The function returned by useState can be called to update the state. When this function is called with a new state value, React will schedule a re-render of the component with the updated state value.
+              useState is a React hook that allows or can be used to added the state value to a function. It returns an array with two values: the current state and a function to update it.It returns a pair of values. When a component renders first time, useState initializes the provided initial value. useState value can be string, number, value, primitive value .The function returned by useState can be called to update the state. When this function is called with a new state value, React will schedule a re-render of the component with the updated state value.
               </p>
         </div>
      </div>
